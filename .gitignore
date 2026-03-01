@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# Local runtime data
+ims.db
+secret.key
+
+# Local credentials
+config.local.json
+
+# Generated billing files
+bill/*.txt
+!bill/.gitkeep
